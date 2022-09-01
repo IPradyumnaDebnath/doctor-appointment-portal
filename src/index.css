@@ -1,0 +1,19 @@
+img {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Tailwind CSS : Include all layers globally */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
